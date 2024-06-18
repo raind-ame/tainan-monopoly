@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(255,254,249);
+}
+
+.topLine {
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.tag-home {
+    margin-top: -42px;
+    font-size: large;
+    float: right;
+    margin-right: 250px;
+}
+
+.tag-store {
+    margin-top: -42px;
+    font-size: large;
+    float: right;
+    margin-right: 170px;
+}
+
+
+.tag-about {
+    margin-top: -42px;
+    font-size: large;
+    margin-right: 110px;
+    float: right;
+}
+
+a {
+    color: black; /* 设置超链接文本颜色 */
+    text-decoration: none; /* 去掉下划线 */
+}
+/* -------------------------*/
+
+.inMiddle {
+    display: flex;
+  /* 水平置中 */
+  justify-content: center;    
+  /* 垂直置中 */
+  align-content: center;      
+  flex-wrap: wrap;
+}
+
+.title {
+    margin-top: 30px;
+    font-size: 100px;
+    text-align: center;
+}

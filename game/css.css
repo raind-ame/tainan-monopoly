@@ -52,12 +52,30 @@ a {
     text-align: center;
 }
 
-.list {
-    font-size: 20px;
-}
-
 .left-tag {
     margin-top: -45px;
     margin-left: 120px;
     font-size: 20px;
+}
+
+.map {
+    position: absolute;
+    margin-top: 200px;
+}
+
+.dice {
+    position: absolute;
+    top: 480px;
+}
+
+.dic {
+    width: 300px;
+    height: 300px;
+}
+
+.player {
+    z-index: 0;
+    margin-top: 400px;
+    margin-left: 19%;
+    height: 100px;
 }
